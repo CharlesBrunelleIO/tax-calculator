@@ -6,20 +6,20 @@ Little to no boilerplates were used to ensure no extra weight or unknown configu
 
 Note: The input for the Year was intentionally left as an open input rather than using a Combobox. This design decision allows the possibility of user errors.
 
-## Testing and Quality Assurance
-### In-Browser Testing
-A significant next step in quality assurance will be in-browser testing, potentially utilizing BrowserStack services within a CI/CD pipeline. This approach will explore using ARIA labels for testing rather than data-testids. This method aligns tests closer to real-world usage and enhances accessibility.
-
-## Future Development
-### Router Implementation
-Although not included in the current scope to maintain focus, a router would be essential for seamlessly navigating between different parts of the application.
-
 ## Essential Components for MVP
 A minimal viable product (MVP) for this project should include the following:
 
 - Datastore (Redux): For state management.
 - i18n: For internationalization, although current translations are incomplete, they mainly serve to demonstrate error management capabilities.
 - Router: While not currently included, it is deemed necessary for future development to handle routing efficiently.
+
+## Future Development
+### Router Implementation
+Although not included in the current scope to maintain focus, a router would be essential for seamlessly navigating between different parts of the application.
+
+### In-Browser Testing
+A significant next step in quality assurance will be in-browser testing, for example utilizing BrowserStack services within a CI/CD pipeline. This approach could also explore using ARIA attributes for testing rather than data-testids. This method would align tests closer to real-world usage and enhances accessibility.
+
 ## Emphasis on Testing
 Testing is a important component of this project. Based on my experience, tests can be categorized into three types: verification, validation, and destructive.
 
