@@ -1,0 +1,12 @@
+{
+    "translation": {
+        "headerTitle": "My {{appName}} Header Title",
+        "Tax Calculator": "Tax Calculator",
+        "Tax Year": "Tax Year",
+        "Salary": "Salary",
+        "Tax API - NOT FOUND": "Tax information for {{year}} is not available.",
+        "total tax summary": "Your total tax for {{year}} is {{tax}} $",
+        "tax effective rate": "The effective rate is {{rate}} %",
+        "Tax API - Internal Server Error": "Our system is unavailable for the moment. Please try again later."
+    }
+}
